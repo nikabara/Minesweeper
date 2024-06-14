@@ -21,7 +21,7 @@ const SetBombs = (bombCount, bombSpawnDensity, bombSpawnFreq) => {
     }
 }
 
-SetBombs(10, 8.5, 10);
+SetBombs(10, 8.5, 9.5);
 // SetBombs(10, 8, 10);
 
 for (let [key, value] of tileMap) {
