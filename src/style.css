@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: black;
+    transition: ease-in-out .2s;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#utilities {
+    width: 100%;
+}
+
+#board {
+    background-color: beige;
+    width: 500px;
+    height: 590px;
+    display: grid;
+    grid-template-rows: 2fr repeat(8, 1fr);
+    border: solid #8c8c8c 5px
+}
+
+section {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+}
+
+.section-1 {
+    border-top: solid #8c8c8c 5px
+}
+
+#box {
+    border: solid #8c8c8c 2px;
+    background-color: #dbdbdb;
+}
+
+.Hidden {
+    background-image: url("../images/HiddenTile.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Bomb {
+    background-image: url("../images/Bomb.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: solid #8c8c8c 2px;
+    background-color: #dbdbdb;
+}
+
+.TrippedBomb {
+    background-image: url("../images/TrippedBomb.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
