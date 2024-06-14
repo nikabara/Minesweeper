@@ -10,7 +10,6 @@ let tileMap = new Map();
 const SetBombs = (bombCount, bombSpawnDensity, bombSpawnFreq) => {
     for (let i = 0; i < tiles.length; i++) {
         let randomNum = Math.round(Math.random() * bombSpawnFreq);
-    
         if (randomNum > bombSpawnDensity && bombCount > 0) {
             tileMap.set(tiles[i].id, "Bomb");
             bombCount--;
