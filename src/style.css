@@ -37,19 +37,19 @@ section {
 }
 
 #box {
-    border: solid #8c8c8c 2px;
+    border: solid #8c8c8c 2px !important;
     background-color: #dbdbdb;
 }
 
 .Hidden {
-    background-image: url("../images/HiddenTile.png");
+    background-image: url("../images/HiddenTile.png") /*!important*/;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .Bomb {
-    background-image: url("../images/Bomb.png");
+    background-image: url("../images/Bomb.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -59,6 +59,27 @@ section {
 
 .TrippedBomb {
     background-image: url("../images/TrippedBomb.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.NumberOne {
+    background: url("../images/NumberOne.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.NumberTwo {
+    background: url("../images/NumberTwo.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.NumberThree {
+    background: url("../images/NumberThree.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
