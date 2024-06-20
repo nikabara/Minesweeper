@@ -36,13 +36,13 @@ section {
     border-top: solid #8c8c8c 5px
 }
 
-#box {
+.box {
     border: solid #8c8c8c 2px !important;
     background-color: #dbdbdb;
 }
 
 .Hidden {
-    background-image: url("../images/HiddenTile.png") /*!important*/;
+    background-image: url("../images/HiddenTile.png") !important;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -84,3 +84,17 @@ section {
     background-size: cover;
     background-repeat: no-repeat;
 }
+
+.NumberFour {
+    background: url("../images/NumberFour.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* .NumberSpot {
+    background: url("../images/NumberOne.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+} */
